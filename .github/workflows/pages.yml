@@ -30,4 +30,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: q10games.com/Candy-Crush/candy-crush  # Specify the path to your source directory
+          publish_dir: q10games.com/q10games.com/Candy_Crush/candy-crush/
+In  # Specify the path to your source directory
