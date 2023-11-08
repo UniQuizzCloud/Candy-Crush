@@ -33,8 +33,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: /q10games.com/q10games.com/Candy_Crush/candy-crush
-          destination: /q10games.com/q10games.com/Candy_Crush/candy-crush
+          source: q10games.com/q10games.com/Candy_Crush/candy-crush
+          destination: q10games.com/q10games.com/Candy_Crush/candy-crush
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
